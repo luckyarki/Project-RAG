@@ -8,7 +8,7 @@ Berisi setup infrastruktur, workflow n8n, webapp, serta dokumentasi progres.
 | No | Screenshot | Deskripsi |
 | --- | --- | --- |
 | 1 | `docker-installed.png` | Bukti perintah `docker --version` berhasil — Docker terinstal. |
-| 2 | `docker_compose-installed.png` | Bukti `docker compose version` berhasil — Docker Compose aktif. |
+| 2 | `docker-compose-installed.png` | Bukti `docker compose version` berhasil — Docker Compose aktif. |
 | 3 | `node-installed.png` | Bukti `node -v` & `npm -v` — Node.js & npm terinstal. |
 | 4 | `git-installed.png` | Bukti `git --version` — Git terinstal. |
 | 5 | `n8n-running.png` | Tampilan terminal atau browser menunjukkan n8n sedang berjalan. |
