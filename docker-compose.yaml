@@ -1,0 +1,14 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n_rag_project
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    volumes:
+      - ~/.n8n:/home/node/.n8n
+    environment:
+      - TZ=Asia/Jakarta
+      - N8N_HOST=unethical-tamica-prefriendly.ngrok-free.dev
+      - N8N_PROTOCOL=https
+      - WEBHOOK_URL=https://unethical-tamica-prefriendly.ngrok-free.dev/

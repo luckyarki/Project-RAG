@@ -1,0 +1,15 @@
+# Dependencies Node.js
+node_modules/
+
+# Environment Variables / API Keys (Wajib diamankan)
+.env
+
+n8n_data/
+.env
+
+# n8n / Database Lokal (Jika menggunakan SQLite)
+database.sqlite
+
+# File Cache VSCode/OS
+.DS_Store
+
